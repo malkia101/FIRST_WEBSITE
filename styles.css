@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0d0d0d5;
+    color: #333;
+}
+
+
+header {
+    background-color: #879fcf;
+    color: rgb(59, 50, 50);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.headline {
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+    color: blue;
+}
+
+.heeadline h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.headline {
+    font-size: 20px;
+}
+
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-item h3 {
+    margin-top: 10px;
+}
+
+.pricing {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pricing table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+.pricing th,
+.pricing td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.pricing th {
+    background-color: #0044cc;
+    color: white;
+}
+
+.pricing td {
+    text-align: center;
+}
+
+.contact {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
